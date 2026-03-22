@@ -7,6 +7,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Security & Credentials
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
 node_modules
 dist
 dist-ssr
